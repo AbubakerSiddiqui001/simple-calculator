@@ -1,0 +1,25 @@
+{
+  "name": "md-23-my-simple-calculator",
+  "version": "1.0.0",
+  "description": "Simple Calculator typescript, Node.js , Inquirer.",
+  "main": "main.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "md-23-my-simple-calculator": "main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AbubakerSiddiqui",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.16",
+    "md-23-my-simple-calculator": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
